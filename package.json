@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "@hookform/resolvers": "^3.1.1",
+    "@mui/icons-material": "^5.11.16",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
     "react": "18.2.0",
@@ -20,6 +23,19 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "@types/styled-components": "^5.1.26",
     "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
